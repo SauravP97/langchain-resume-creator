@@ -70,6 +70,7 @@ def prep_for_fewshot_selection(state: ResumeGraphState):
   messages.append(HumanMessage(content = state["question"]))
 
   return {
+     "question": state["question"],
      "messages": messages
   }
 
