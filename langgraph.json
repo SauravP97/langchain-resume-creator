@@ -1,0 +1,11 @@
+{
+    "python_version": "3.11",
+    "dockerfile_lines": [],
+    "dependencies": [
+      "."
+    ],
+    "graphs": {
+      "tweeter": "./src/agent.py:resume_graph"
+    },
+    "env": ".env"
+  }
